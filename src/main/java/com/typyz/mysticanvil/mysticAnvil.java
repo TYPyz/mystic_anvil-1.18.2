@@ -35,7 +35,7 @@ public class mysticAnvil
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
-
+    //comment
     private void setup(final FMLCommonSetupEvent event)
     {
         // some preinit code
