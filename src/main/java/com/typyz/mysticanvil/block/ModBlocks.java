@@ -32,7 +32,7 @@ public class ModBlocks {
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.MYSTICANVIL_TAB);
 
     public static final RegistryObject<Block> MYSTIC_ANVIL = registerBlock("mystic_anvil",
-            () -> new MysticAnvilBlock(BlockBehaviour.Properties.copy(Blocks.ANVIL).noCollission()),
+            () -> new MysticAnvilBlock(BlockBehaviour.Properties.copy(Blocks.ANVIL).noOcclusion()),
                     ModCreativeModeTab.MYSTICANVIL_TAB);
 
     public static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

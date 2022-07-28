@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "mysticanvil:block/mystic_anvil" }
+    "facing=north": { "model": "mysticanvil:block/mystic_anvil"},
+    "facing=east": { "model": "mysticanvil:block/mystic_anvil", "y": 90 },
+    "facing=south": { "model": "mysticanvil:block/mystic_anvil", "y":  180},
+    "facing=west": { "model": "mysticanvil:block/mystic_anvil", "y":  270}
   }
 }
